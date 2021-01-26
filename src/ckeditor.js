@@ -12,6 +12,7 @@ import FontFamily from '@ckeditor/ckeditor5-font/src/fontfamily.js';
 import FontSize from '@ckeditor/ckeditor5-font/src/fontsize.js';
 import Heading from '@ckeditor/ckeditor5-heading/src/heading.js';
 import Indent from '@ckeditor/ckeditor5-indent/src/indent.js';
+import IndentBlock from '@ckeditor/ckeditor5-indent/src/indentblock.js';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic.js';
 import Link from '@ckeditor/ckeditor5-link/src/link.js';
 import List from '@ckeditor/ckeditor5-list/src/list.js';
@@ -22,7 +23,6 @@ import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperti
 import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
-// import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 
 class Editor extends ClassicEditor {}
 
@@ -36,7 +36,8 @@ Editor.builtinPlugins = [
 	FontFamily,
 	FontSize,
 	Heading,
-	Indent,
+  Indent,
+  IndentBlock,
 	Italic,
 	Link,
 	List,
@@ -47,7 +48,6 @@ Editor.builtinPlugins = [
 	TableProperties,
 	TableToolbar,
 	TextTransformation,
-	// TodoList
 ];
 
 export default Editor;
