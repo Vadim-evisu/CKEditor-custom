@@ -22,7 +22,7 @@ import Table from '@ckeditor/ckeditor5-table/src/table.js';
 import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperties';
 import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
-import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
+import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 
 class Editor extends ClassicEditor {}
 
@@ -47,7 +47,7 @@ Editor.builtinPlugins = [
 	TableCellProperties,
 	TableProperties,
 	TableToolbar,
-	TextTransformation,
+	Alignment,
 ];
 
 export default Editor;
