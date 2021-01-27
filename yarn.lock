@@ -202,6 +202,15 @@
     "@ckeditor/ckeditor5-ui" "^19.0.1"
     "@ckeditor/ckeditor5-utils" "^19.0.1"
 
+"@ckeditor/ckeditor5-paste-from-office@19":
+  version "19.0.2"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-paste-from-office/-/ckeditor5-paste-from-office-19.0.2.tgz#edfb4762195d34742785e7bbc2a09bbd9e443541"
+  integrity sha512-Rmn0+sKyF0xGT623cvGTk26ip0jjZTbJfbyDx8lSAt15LtL1VgVs0zGbiTR6le/91YS9rL1ytcPkjoWDc1EppA==
+  dependencies:
+    "@ckeditor/ckeditor5-clipboard" "^19.0.1"
+    "@ckeditor/ckeditor5-core" "^19.0.1"
+    "@ckeditor/ckeditor5-engine" "^19.0.1"
+
 "@ckeditor/ckeditor5-remove-format@^19.0.1":
   version "19.0.1"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-remove-format/-/ckeditor5-remove-format-19.0.1.tgz#043705b0c184b9f3c89d6af0c05f531de8224014"

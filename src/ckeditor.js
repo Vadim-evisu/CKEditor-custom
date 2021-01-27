@@ -25,6 +25,7 @@ import TableCellProperties from '@ckeditor/ckeditor5-table/src/tablecellproperti
 import TableProperties from '@ckeditor/ckeditor5-table/src/tableproperties';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
+import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 
 class Editor extends ClassicEditor {}
 
@@ -52,6 +53,7 @@ Editor.builtinPlugins = [
 	TableProperties,
 	TableToolbar,
 	Alignment,
+	PasteFromOffice,
 ];
 
 export default Editor;
